@@ -1,0 +1,116 @@
+/* GENERAL */
+.light-background {
+  background-color: #fafafa;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+  font-family: Gotham, Sans-Serif;
+  color: #232222;
+}
+
+strong {
+  color: #232222;
+}
+
+div, p, span, table, ul, ol, li {
+  font-family: Barlow, Sans-Serif;
+  color: rgba(35, 34, 34, 0.6);
+}
+
+li {
+  margin-top: 24px;
+}
+
+.top-menu a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  display: inline-block;
+  margin-right: 16px;
+  border-bottom: 2px solid #ffffff;
+}
+
+a:hover, .top-menu a:hover {
+  color: #232222;
+  border-bottom: 2px solid #232222;
+}
+
+.big-text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.medium-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  margin-top: 16px;
+}
+
+h1.big-title {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 66px;
+  margin-bottom: 36px;
+}
+
+.ui.grid>.row.big-padding {
+  padding: 96px 96px;
+}
+
+.big-top-padding, .ui.grid>.row.big-top-padding {
+  padding-top: 96px;
+}
+
+.big-bottom-padding, .ui.grid>.row.big-bottom-padding {
+  padding-bottom: 96px;
+}
+
+.ui.grid>.row.big-horizontal-padding {
+  padding-left:96px;
+  padding-right:96px;
+}
+
+/* END - GENERAL */
+
+
+/* HERO ZONE */
+.hero-picture {
+  border-top-right-radius: 96px;
+}
+
+.intro {
+  margin-top: 64px;
+}
+
+.hero-content h1 img {
+  display: inline;
+  height: 36px;
+  border-radius: 8px;
+}
+
+.ui.grid>.column:not(.row).hero-content, .ui.grid>.row>.column.hero-content {
+  padding: 28px 96px 64px 96px;
+}
+
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+}
+/* END - HERO ZONE */
+
+
+/* WHY SWAHILI */
+img.swahili-map {
+  width: 80%;
+}
+/* END - WHY SWAHILI */
+
+
+/* HOW IT WORKS */
+.content .header {
+  margin-bottom: 24px;
+}
+/* END - HOW IT WORKS */
