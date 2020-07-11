@@ -173,3 +173,8 @@ img.swahili-map {
   }
 }
 /* END - RESPONSIVE MODE */
+
+/* CONVERKIT FORM */
+.formkit-submit.formkit-submit span {
+  color: white !important;
+}
